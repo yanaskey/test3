@@ -1,4 +1,15 @@
 /* Reset styles */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -6,11 +17,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 ul {
@@ -20,7 +27,6 @@ ul {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
@@ -32,4 +38,29 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: 'DM Sans', sans-serif;
+  /* letter-spacing: -0.02em; */
+}
+
+:root {
+  --primary-white: #ffffff;
+  --background-color: #d8d8d8;
+  --white-text-color: #f7f7f7;
+  --white-line-color: #f6f6f6;
+  --gray-text-color: #484848;
+  --black-text-color: #121212;
+  --primary-black: #000000;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
