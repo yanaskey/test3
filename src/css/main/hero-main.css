@@ -1,0 +1,18 @@
+.section-location {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-location {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-location {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
