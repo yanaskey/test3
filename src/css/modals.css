@@ -77,10 +77,13 @@
 
 .modal-btn {
   background-color: transparent;
-  color: var(--white-text-color, #f7f7f7);
 }
 
 .modal-btn-icon {
+  /* fill: var(--white-text-color, #f7f7f7); */
+  /* stroke: var(--white-text-color, #f7f7f7);
+  stroke-width: 0; */
+
   fill: var(--white-text-color, #f7f7f7);
 }
 
@@ -106,6 +109,7 @@
   color: #d8d7d7;
   margin-top: 8px;
   text-align: left;
+  display: block;
 }
 
 .modal-input {
@@ -114,11 +118,15 @@
   height: 36px;
   border-bottom: 1px solid rgba(246, 246, 246, 0.2);
   padding: 0;
-
   outline: none;
-  letter-spacing: 0.02em;
-  /* SLATE */
-  color: var(--text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--white-text-color, #f7f7f7);
   background-color: transparent;
 }
 .modal-input::placeholder {
@@ -127,6 +135,17 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  color: var(--white-text-color, #f7f7f7);
+}
+
+option[value=''] {
+  display: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
   color: var(--white-text-color, #f7f7f7);
 }
 
