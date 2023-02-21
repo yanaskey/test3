@@ -24,7 +24,6 @@
   display: block;
   font-size: 18px;
   line-height: 1.33;
-  letter-spacing: -0.02em;
   color: var(--primary-black);
   margin-bottom: 28px;
 }
@@ -35,7 +34,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.02em;
 }
 
 .location-tel-list {
@@ -47,7 +45,6 @@
 .location-tel-list a {
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.02em;
   color: var(--black-text-color);
 }
 
@@ -59,8 +56,11 @@
   .location-address-tel {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
-
+  .location-address-link {
+    margin-bottom: 0;
+  }
   .location-tel-list a {
     font-size: 18px;
     line-height: 1.33;
@@ -78,11 +78,16 @@
     justify-content: left;
     flex-direction: row-reverse;
   }
+
+  .location-map-img {
+    margin-bottom: 0px;
+  }
   .location-address-tel {
+    align-items: flex-end;
     justify-content: flex-start;
     gap: 70px;
     position: relative;
-    top: -14px;
+    top: -57px;
     left: 672px;
   }
 
