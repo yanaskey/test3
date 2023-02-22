@@ -61,11 +61,11 @@
   position: absolute;
   top: 14px;
   right: 14px;
-  fill: var(--white-text-color, #f7f7f7);
+  /* fill: var(--white-text-color, #f7f7f7); */
   cursor: pointer;
 }
 
-.modal__cross_2 {
+/* .modal__cross_2 {
   width: 28px;
   height: 28px;
   position: absolute;
@@ -73,7 +73,7 @@
   right: 40px;
   fill: var(--white-text-color, #f7f7f7);
   cursor: pointer;
-}
+} */
 
 .modal-btn {
   background-color: transparent;
@@ -81,10 +81,10 @@
 
 .modal-btn-icon {
   /* fill: var(--white-text-color, #f7f7f7); */
-  /* stroke: var(--white-text-color, #f7f7f7);
-  stroke-width: 0; */
-
-  fill: var(--white-text-color, #f7f7f7);
+  stroke: var(--white-text-color, #f7f7f7);
+  stroke-width: 1.5px;
+  /* border: 1.5px solid #f7f7f7; */
+  /* fill: var(--white-text-color, #f7f7f7); */
 }
 
 /* ------------ FORM -------------- */
