@@ -4,11 +4,11 @@
 }
 
 .test-ikon-item {
-  fill: var(--primary-white);
+  fill: none;
+  stroke: var(--primary-white);
 }
 
 .test-link {
-  /* display: inline-block; */
   display: block;
   height: 32px;
   width: 32px;
