@@ -83,6 +83,7 @@
     margin-bottom: 0px;
   }
   .location-address-tel {
+    display: inline-flex;
     align-items: flex-end;
     justify-content: flex-start;
     gap: 70px;
