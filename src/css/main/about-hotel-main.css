@@ -1,0 +1,43 @@
+.section-about-hotel-main {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.section-title-about-hotel.section-title {
+    font-weight: 500;
+    color: var(--primary-black);
+    margin-bottom: 32;
+}
+.about-hotel-item {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;   
+    margin-bottom: 23px;  
+}
+.about-hotel-foto {
+    position: absolute;
+    width: 335px;
+    height: 432px;
+    left: 0px;
+    top: 401px;
+
+    background: url(phil-desforges-Qn9e6JsYUFg-unsplash.jpg);
+}
+.about-hotel-list { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 306px;
+    height: 226px;
+    left: 0px;
+    top: 140px;
+
+}
