@@ -1,43 +1,85 @@
 .section-about-hotel-main {
     padding-top: 64px;
-    padding-bottom: 64px;
+  
 }
-.section-title-about-hotel.section-title {
-    font-weight: 500;
-    color: var(--primary-black);
-    margin-bottom: 32;
+
+.section-title-about-hotel {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: calc( 36 / 32 );
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 32px;
 }
+.about-hotel-item-first {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(18 / 14 );
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 32px;
+text-align: center;
+
+}
+
 .about-hotel-item {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(18 / 14 );
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 32px;
+text-align: center;
 
-    letter-spacing: -0.02em;
-    text-transform: uppercase;   
-    margin-bottom: 23px;  
-}
-.about-hotel-foto {
-    position: absolute;
-    width: 335px;
-    height: 432px;
-    left: 0px;
-    top: 401px;
 
-    background: url(phil-desforges-Qn9e6JsYUFg-unsplash.jpg);
+
 }
-.about-hotel-list { 
+
+@media screen and (min-width: 768px) {
+  .section-title-about-hotel {
+    width: 434px;
+    height: 120px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .about-hotel-item {
+    /* width: 306px;
+    height: 72px; */
+    margin-bottom: 0;
+    
+   
+
+  }
+  .about-hotel-list {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 32px;
+    flex-direction: row;
+    margin-bottom: 40px;
+   
+  }
+}
 
-    position: absolute;
-    width: 306px;
-    height: 226px;
-    left: 0px;
-    top: 140px;
 
+@media screen and (min-width: 1440px) {
+  .section-title-about-hotel {
+   /* margin-left: auto; */
+}
+
+
+} 
+.text {
+  display: flex;
+  justify-content: left;
+  flex-direction: row-reverse;
 }
