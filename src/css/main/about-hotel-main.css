@@ -56,11 +56,40 @@
   .about-hotel-item-first {
     margin-bottom: 0;
   }
-  .about-hotel-list {
+  .about-hotel-main {
     display: flex;
     gap: 32px;
     /* flex-direction: row; */
     margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .section-about-hotel-main {
+    padding-top: 126px;
+  }
+  .section-title-about-hotel {
+    margin-bottom: 338px;
+    
+  }
+  .text {
+    float: right;
 
+    margin-right: 203px;
+  }
+  .about-hotel-main {
+    display: block;
+    margin: 0;
+  }
+
+  .about-hotel-item-first {
+    width: 437px;
+    margin-bottom: 24px;
+  }
+  .about-hotel-item {
+    width: 437px;
+  }
+
+  .hotel-foto {
+    margin-right: 0;
+  }
+}
